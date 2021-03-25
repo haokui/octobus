@@ -30,7 +30,7 @@ setup(
     ],
     description="A python module for bioinformatics to organize, manage, and package omics datasets, serving as data portal for modeling.",
     install_requires=requirements,
-    license="MIT license",
+    license="BSD 3-Clause License",
     long_description=readme,
     include_package_data=True,
     name='octopus',

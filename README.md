@@ -156,4 +156,4 @@ If you have any question or suggestions, contact us with email: [haokui.zhou@gma
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details
+This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE.txt) file for details
