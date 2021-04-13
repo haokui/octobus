@@ -21,7 +21,7 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD 3-Clause License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
@@ -39,6 +39,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/haokui/octobus',
+    download_url='https://github.com/haokui/octobus/archive/refs/tags/v0.1.0.tar.gz',
     version='0.1.0',
     zip_safe=False,
 )
