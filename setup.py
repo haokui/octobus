@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 # with open('requirements.txt') as requirements_file:
 #     requirements = requirements_file.read().splitlines()
 
-requirements = ['pandas==1.2.3', 'numpy==1.20.0']
+requirements = ['pandas>=1.2.3', 'numpy>=1.20.0']
 
 setup_requirements = []
 
@@ -41,7 +41,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/haokui/octobus',
-    download_url='https://github.com/haokui/octobus/archive/refs/tags/v0.1.1.tar.gz',
-    version='0.1.1',
+    download_url='https://github.com/haokui/octobus/archive/refs/tags/v0.1.2.tar.gz',
+    version='0.1.2',
     zip_safe=False,
 )
