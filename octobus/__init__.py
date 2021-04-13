@@ -1,6 +1,6 @@
-"""Top-level package for octopus."""
+"""Top-level package for octobus."""
 
-from octopus.base import DataSet, DataStore, SampleStore, FeatureStore, FeatureManager
+from octobus.base import DataSet, DataStore, SampleStore, FeatureStore, FeatureManager
 
 __version__ = '0.1.0'
 

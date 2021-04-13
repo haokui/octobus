@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-"""Tests for `octopus` package."""
+"""Tests for `octobus` package."""
 
 
 import unittest
 
-from octopus import *
+from octobus import *
 
 
-class TestOctopus(unittest.TestCase):
-    """Tests for `octopus` package."""
+class TestOctobus(unittest.TestCase):
+    """Tests for `octobus` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""

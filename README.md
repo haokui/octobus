@@ -1,4 +1,4 @@
-# Octopus
+# Octobus
 
 A python module for bioinformatics to organize, manage, and access omics datasets, 
 serving as data portal for modeling. Mainly contains 5 concepts below:
@@ -22,7 +22,7 @@ implementing the functionality of cross-table querying.
 
 ## Getting Started
 
-Now start working with __octopus__. 
+Now start working with __octobus__. 
 
 ### Installing
 
@@ -30,20 +30,20 @@ Python __3.7+__ are required. Try this command if [pip](https://pip.pypa.io/en/s
 already in your environment.
 
 ```
-pip install octopus
+pip install octobus
 ```
 
 Developers can set up by cloning the repo locally.
 
 ```
-git clone git@github.com:haokui/octopus.git
-cd octopus
+git clone git@github.com:haokui/octobus.git
+cd octobus
 python setup.py install
 ```
 
 ### Usage
 
-Quick start octopus with a simple example of accessing tables resulted from 16S sequencing,
+Quick start octobus with a simple example of accessing tables resulted from 16S sequencing,
 including a genus table and a metadata table.
 
 1. Load flat files as `pandas.DataFrame` format
@@ -65,7 +65,7 @@ including a genus table and a metadata table.
 2. Ingest data to `DataStore`
 
     ```python
-    from octopus import DataStore
+    from octobus import DataStore
       
     data_store = DataStore()
     data_store.ingest(name='meta', dataframe=meta)
@@ -87,7 +87,7 @@ including a genus table and a metadata table.
 
 3. Extract and slice data to `FeatureStore`
     ```python
-    from octopus import FeatureStore
+    from octobus import FeatureStore
     
     meta_store = FeatureStore(data_store['meta'], name='meta')
     genus_store = FeatureStore(data_store['genus'], 
@@ -115,7 +115,7 @@ including a genus table and a metadata table.
     3. Pack data
     
     ```python
-    from octopus import DataSet, FeatureManager
+    from octobus import DataSet, FeatureManager
     
     # 1. Dynamically attach FeatureStore to SampleStore
     with FeatureManager(meta_store, samples) as fm_meta:
@@ -151,7 +151,7 @@ __PRs are always welcomed__ :heart:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-For feature requests or bug reports, post it on [Issue](https://github.com/haokui/octopus/issues).
+For feature requests or bug reports, post it on [Issue](https://github.com/haokui/octobus/issues).
 If you have any question or suggestions, contact us with email: [haokui.zhou@gmail.com](haokui.zhou@gmail.com)
 
 ## License

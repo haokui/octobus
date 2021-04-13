@@ -1,6 +1,6 @@
 import os
 from utils import load_tab
-from octopus import *
+from octobus import *
 
 
 # 1. load omics dataset

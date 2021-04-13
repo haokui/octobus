@@ -1,1 +1,1 @@
-"""Unit test package for octopus."""
+"""Unit test package for octobus."""
